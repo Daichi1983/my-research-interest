@@ -26,20 +26,20 @@ const Layout = ({ pageTitle, children }) => {
       </a>
 
       <div class="navbar-item has-dropdown is-hoverable">
-      <a class="navbar-link" href="palau">
+      <a class="navbar-link" href="/palau">
         パラオ
       </a>
         <div class="navbar-dropdown">
           <a class="navbar-item" href="/palau/books">
             パラオ関連書籍
           </a>
-          <a class="navbar-item">
+          <a class="navbar-item" href="/palau/photos">
             パラオの風景
           </a>
 	</div>
 	</div>
 
-      <a class="navbar-item" href="about">
+      <a class="navbar-item" href="/about">
         About
       </a>
 

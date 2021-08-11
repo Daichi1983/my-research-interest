@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../../components/layout'
+import "../mystyles.scss"
 
 const BooksPage = () => {
   return (
@@ -9,7 +10,10 @@ const BooksPage = () => {
 
 
 <h3>パラオ関連書籍</h3>
-<p>坂野徹 著（2019）『島の科学者 : パラオ熱帯生物研究所と帝国日本の南洋研究』,勁草書房,<Link to="http://id.ndl.go.jp/bib/029722983">http://id.ndl.go.jp/bib/029722983</Link></p>
+
+<hr />
+
+<p>坂野徹 著（2019）<Link to="https://amzn.to/3CHIjNs">『島の科学者 : パラオ熱帯生物研究所と帝国日本の南洋研究』</Link>,勁草書房,<Link to="http://id.ndl.go.jp/bib/029722983">http://id.ndl.go.jp/bib/029722983</Link></p>
 
 	<div 
          style={{
@@ -28,6 +32,30 @@ const BooksPage = () => {
 </p>
 
 
+<hr />
+
+
+<p>青柳真智子（1985）<Link to="https://amzn.to/2U6JYdK">『モデクゲイ : ミクロネシア・パラオの新宗教』</Link>,新泉社,<Link to="http://id.ndl.go.jp/bib/000001733678">http://id.ndl.go.jp/bib/000001733678</Link></p>
+
+	<div 
+         style={{
+          // By using the same grid area for both, they are stacked on top of each other
+          gridArea: "1/1",
+          position: "relative",
+          // This centers the other elements inside the hero component
+          placeItems: "center",
+          display: "grid",
+        }}>
+<Link to="https://www.amazon.co.jp/gp/product/478778501X/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=478778501X&linkCode=as2&tag=dai5986-22&linkId=e5155cc934a3e9b4c6eabdcaac44ac26"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=478778501X&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=dai5986-22" /></Link><br />
+<Link to="https://amzn.to/2U6JYdK">モデクゲイ —ミクロネシア・パラオの新宗教</Link>
+	</div>
+
+<p>戦後、パラオに現れた新宗教モデクゲイがどのように誕生し、執筆当時はどのような広がりを見せていたかが克明に描かれている。今のパラオでもモデクゲイを信仰している人たちはいるようだが、本書以降の続報はない。日本語では貴重なパラオの村々のグルーピングなども書かれており、パラオの基本的なことを学ぶにはよい書籍である。</p>
+
+
+<hr />
+
+
 <h4>
 書籍リスト
 </h4>
@@ -37,8 +65,8 @@ const BooksPage = () => {
 <li>寺尾紗穂 著（2017）『あのころのパラオをさがして = SKEL A BELAU RA NGARA MONG : 日本統治下の南洋を生きた人々』,集英社,<Link to="http://id.ndl.go.jp/bib/028379647">http://id.ndl.go.jp/bib/028379647</Link></li>
 <li>風間計博 編（2017）『交錯と共生の人類学 = Anthropology of Minorities : オセアニアにおけるマイノリティと主流社会』,ナカニシヤ出版,<Link to="http://id.ndl.go.jp/bib/028055855">http://id.ndl.go.jp/bib/028055855</Link></li>
 <li>三田信夫 著（2013）『九十一歳の春 : 母のパラオとアルツハイマー 改訂版』,ニシダ印刷製本,<Link to="http://id.ndl.go.jp/bib/024239264">http://id.ndl.go.jp/bib/024239264</Link></li>
-<li>小西潤子, 沖縄県立芸術大学 [著]（2011,パラオにおける日本語歌謡の収集と分析 : 民族音楽学的・言語学的観点から』,[小西潤子],<Link to="http://id.ndl.go.jp/bib/026734632">http://id.ndl.go.jp/bib/026734632</Link></li>
-<li>2007,パラオ-ふたつの人生鬼才・中島敦と日本のゴーギャン・土方久功』,世田谷美術館,<Link to="http://id.ndl.go.jp/bib/000009210451">http://id.ndl.go.jp/bib/000009210451</Link></li>
+<li>小西潤子, 沖縄県立芸術大学 [著]（2011）『パラオにおける日本語歌謡の収集と分析 : 民族音楽学的・言語学的観点から』,[小西潤子],<Link to="http://id.ndl.go.jp/bib/026734632">http://id.ndl.go.jp/bib/026734632</Link></li>
+<li>2007,『パラオ-ふたつの人生鬼才・中島敦と日本のゴーギャン・土方久功』,世田谷美術館,<Link to="http://id.ndl.go.jp/bib/000009210451">http://id.ndl.go.jp/bib/000009210451</Link></li>
 <li>岡谷公二 著（2007）『南海漂蕩 : ミクロネシアに魅せられた土方久功・杉浦佐助・中島敦』,冨山房インターナショナル,<Link to="http://id.ndl.go.jp/bib/000009201633">http://id.ndl.go.jp/bib/000009201633</Link></li>
 <li>三田信夫 著（2006）『九十一歳の春 : 母のパラオとアルツハイマー』,文芸社,<Link to="http://id.ndl.go.jp/bib/000008043025">http://id.ndl.go.jp/bib/000008043025</Link></li>
 <li>崎山理 編（2003）『消滅の危機に瀕した言語の研究の現状と課題』,国立民族学博物館,<Link to="http://id.ndl.go.jp/bib/000004174965">http://id.ndl.go.jp/bib/000004174965</Link></li>
