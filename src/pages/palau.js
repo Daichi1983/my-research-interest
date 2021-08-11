@@ -2,7 +2,7 @@ import * as React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 
-const AboutPage = () => {
+const PalauPage = () => {
   return (
     <Layout pageTitle="私設 パラオ・太平洋研究室">
      <div class="content">
@@ -45,4 +45,4 @@ const AboutPage = () => {
   )
 }
 
-export default AboutPage
+export default PalauPage

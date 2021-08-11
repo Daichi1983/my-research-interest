@@ -25,9 +25,19 @@ const Layout = ({ pageTitle, children }) => {
         ホーム
       </a>
 
-      <a class="navbar-item" href="palau">
+      <div class="navbar-item has-dropdown is-hoverable">
+      <a class="navbar-link" href="palau">
         パラオ
       </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="/palau/books">
+            パラオ関連書籍
+          </a>
+          <a class="navbar-item">
+            パラオの風景
+          </a>
+	</div>
+	</div>
 
       <a class="navbar-item" href="about">
         About
