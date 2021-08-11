@@ -7,6 +7,7 @@ import {
   navLinkItem,
   navLinkText
 } from './layout.module.css'
+import Footer from '../components/footer'
 
 const Layout = ({ pageTitle, children }) => {
   return (
@@ -17,14 +18,14 @@ const Layout = ({ pageTitle, children }) => {
         <h1 className={heading} class="title">{pageTitle}</h1>
 	<h2 class="subtitle">パラオやオセアニア、沖縄に関する個人的研究のまとめ</h2>
 
-<nav class="navbar" role="navigation" aria-label="main navigation">
+<nav class="navbar" role="navigation" aria-label="main navigation" class="navbar is-info">
   <div id="navbarBasicExample" class="navbar-menu">
     <div class="navbar-start">
       <a class="navbar-item" href="/">
         ホーム
       </a>
 
-      <a class="navbar-item">
+      <a class="navbar-item" href="palau">
         パラオ
       </a>
 
@@ -39,10 +40,10 @@ const Layout = ({ pageTitle, children }) => {
 
         <div class="navbar-dropdown">
           <a class="navbar-item">
-            About
+            文化人類学とは
           </a>
           <a class="navbar-item">
-            Jobs
+            言語学とは
           </a>
           <a class="navbar-item">
             Contact
@@ -54,12 +55,12 @@ const Layout = ({ pageTitle, children }) => {
         </div>
       </div>
     </div>
-
   </div>
 </nav>
         {children}
       </main>
 
+    <Footer />
     </div>
   )
 }
