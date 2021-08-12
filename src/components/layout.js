@@ -39,6 +39,20 @@ const Layout = ({ pageTitle, children }) => {
 	</div>
 	</div>
 
+      <div class="navbar-item has-dropdown is-hoverable">
+      <a class="navbar-link" href="/palau">
+        太平洋
+      </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="/palau/books">
+            太平洋関連書籍
+          </a>
+          <a class="navbar-item" href="/palau/photos">
+            太平洋の風景
+          </a>
+	</div>
+	</div>
+
       <a class="navbar-item" href="/about">
         About
       </a>
@@ -49,10 +63,10 @@ const Layout = ({ pageTitle, children }) => {
         </a>
 
         <div class="navbar-dropdown">
-          <a class="navbar-item">
+          <a class="navbar-item" href="/anthropology">
             文化人類学とは
           </a>
-          <a class="navbar-item">
+          <a class="navbar-item" href="/linguistics">
             言語学とは
           </a>
           <a class="navbar-item">
