@@ -16,7 +16,7 @@ const Layout = ({ pageTitle, children }) => {
 
       <main>
         <h1 className={heading} class="title">{pageTitle}</h1>
-	<h2 class="subtitle">パラオやオセアニア、沖縄に関する個人的研究のまとめ</h2>
+	        <h2 class="subtitle">パラオやオセアニア、沖縄に関する個人的研究のまとめ</h2>
 
 <nav class="navbar" role="navigation" aria-label="main navigation" class="navbar is-info">
   <div id="navbarBasicExample" class="navbar-menu">
@@ -40,14 +40,14 @@ const Layout = ({ pageTitle, children }) => {
 	</div>
 
       <div class="navbar-item has-dropdown is-hoverable">
-      <a class="navbar-link" href="/palau">
+      <a class="navbar-link">
         太平洋
       </a>
         <div class="navbar-dropdown">
-          <a class="navbar-item" href="/palau/books">
+          <a class="navbar-item" href="/pacific/books">
             太平洋関連書籍
           </a>
-          <a class="navbar-item" href="/palau/photos">
+          <a class="navbar-item" href="/pacific/photos">
             太平洋の風景
           </a>
 	</div>
