@@ -1,12 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: "My First Gatsby Site",
+    title: "私設 パラオ・太平洋研究室",
+  siteUrl: `https://palau.pages.dev/`,
+
   },
   plugins: [
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-plugin-sass",
+    "gatsby-plugin-sitemap",
 
     {
       resolve: `gatsby-plugin-google-analytics`,

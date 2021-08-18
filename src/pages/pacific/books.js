@@ -8,7 +8,18 @@ const AboutPage = () => {
   return (
     <Layout pageTitle="私設 パラオ・太平洋研究室">
      <div class="content">
-      工事中
+     <h3>太平洋関連書籍</h3>
+
+<hr />
+<ol>
+  <li>儀礼のセミオティクス</li>
+  <li>生成される平和の民族史</li>
+  <li>オセアニア芸術. レッド・ウェーヴの個と集合</li>
+  
+</ol>
+
+<hr />
+
       
      </div>
     </Layout>
