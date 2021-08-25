@@ -12,10 +12,11 @@ const AboutPage = () => {
 	<dt><strong>管理人</strong></dt>
 	<dd>ウチボリ</dd>
 	<dt><strong>最終学歴</strong></dt>
-	<dd>大学院修士課程修了</dd>
+	<dd>大学院博士前期課程修了</dd>
 	<dt><strong>専門</strong></dt>
 	<dd>文化人類学（地域はパラオを含むオセアニア。最近は沖縄にも関心あり。）</dd>
-	<dd>言語学（生成文法ではなく、記述文法や比較言語学が好きです。）</dd>
+	<dd>言語学（生成文法よりも、記述文法や比較言語学が好きです。）</dd>
+	<dd>意味形態論<br />　日本が生んだ世界最高レベルの言語学者、関口存男の文法理論研究をしています。今は以下のサイトを管理しています。<br />　関口存男文例集電子版<br />　<Link to="https://sondern.netlify.app/">https://sondern.netlify.app/</Link></dd>
 	<dt><strong>趣味</strong></dt>
 	<dd>読書<br />　書評ブログ：ビブレビ<br />　<a href="https://biblevi.net/">https://biblevi.net/</a></dd>
 	<dd>旅行<br />　旅行ブログ：ウェブ紀行<br />　<a href="https://webkikou.net/">https://webkikou.net/</a></dd>
