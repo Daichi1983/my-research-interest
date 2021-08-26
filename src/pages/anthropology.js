@@ -40,10 +40,12 @@ const AnthropologyPage = () => {
 	</p>
 	<ol>
 		<li>
-		<Link to ="https://amzn.to/3AEBJ8l">マリノフスキー（2010）『西太平洋の遠洋航海者』 講談社学術文庫</Link>
+		<Link to ="https://amzn.to/3AEBJ8l">マリノフスキー（2010）『西太平洋の遠洋航海者』 講談社学術文庫</Link><br />
+<Link to="https://www.amazon.co.jp/gp/product/4062919850/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4062919850&linkCode=as2&tag=dai5986-22&linkId=048fc59c15e9566a93c16caf29c60e4c"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=4062919850&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=dai5986-22" /></Link>
 		</li>
 		<li>
-		<Link to="https://amzn.to/3mevx3d">ラドクリフ＝ブラウン（2002）『未開社会における構造と機能』新泉社</Link>
+		<Link to="https://amzn.to/3mevx3d">ラドクリフ＝ブラウン（2002）『未開社会における構造と機能』新泉社</Link><br />
+<Link to="https://www.amazon.co.jp/gp/product/4787702041/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4787702041&linkCode=as2&tag=dai5986-22&linkId=b533074f3f8deb2a172db0a5b6941695"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=4787702041&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=dai5986-22" /></Link>
 		</li>
 	</ol>
 	<p>

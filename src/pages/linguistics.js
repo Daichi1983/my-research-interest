@@ -50,6 +50,41 @@ const LinguisticsPage = () => {
 
 <h4>言語学の入門書</h4>
 <h5 id="general">言語学一般</h5>
+
+	<div
+         style={{
+          // By using the same grid area for both, they are stacked on top of each other
+          gridArea: "1/1",
+          position: "relative",
+          // This centers the other elements inside the hero component
+          placeItems: "center",
+          display: "grid",
+        }}>
+
+<Link to="https://www.amazon.co.jp/gp/product/4327378224/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4327378224&linkCode=as2&tag=dai5986-22&linkId=ea87025496c598b0512993f7808a45c0"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=4327378224&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=dai5986-22" /></Link><br />
+<Link to="https://www.amazon.co.jp/gp/product/4327378224/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4327378224&linkCode=as2&tag=dai5986-22&linkId=083460375905e58a6e6dca55fe05516e">新訳 ソシュール 一般言語学講義</Link>
+</div>
+
+<p>なんといってもソシュールが言語学の研究対象はLangueとすべし、と述べた講義録は外せません。しかしこの講義録がまた読みにくい。ソシュールの思想を知るには、手引きとなる解説書を読むのが一番です。</p>
+
+
+	<div
+         style={{
+          // By using the same grid area for both, they are stacked on top of each other
+          gridArea: "1/1",
+          position: "relative",
+          // This centers the other elements inside the hero component
+          placeItems: "center",
+          display: "grid",
+        }}>
+
+<Link to="https://www.amazon.co.jp/gp/product/4327376914/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4327376914&linkCode=as2&tag=dai5986-22&linkId=9e57dba84732d288663525bad6987349"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=4327376914&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=dai5986-22" /></Link><br />
+<Link to="https://www.amazon.co.jp/gp/product/4327376914/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=4327376914&linkCode=as2&tag=dai5986-22&linkId=b76efffe98172af7e9eb6d35f13602d3">ソシュールのすべて―言語学でいちばん大切なこと</Link><br /><br />
+<Link to="https://www.amazon.co.jp/gp/product/B00UTD8EGA/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B00UTD8EGA&linkCode=as2&tag=dai5986-22&linkId=363b8d5dadc9247dfad2699e06e062df"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B00UTD8EGA&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=dai5986-22" /></Link><br />
+<Link to="https://www.amazon.co.jp/gp/product/B00UTD8EGA/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B00UTD8EGA&linkCode=as2&tag=dai5986-22&linkId=574b4b759d60ef1b15cf2de3bb7fce09">ソシュールと言語学　コトバはなぜ通じるのか (講談社現代新書)</Link>
+</div>
+
+
 <hr />
 <ol>
   <li><Link to="https://amzn.to/3AKxdp7">言語学を学ぶ人のために</Link></li>
@@ -59,7 +94,7 @@ const LinguisticsPage = () => {
 </ol>
 
 <p>
-  ずいぶん古い本で時代を追えてはいないですが、基本的なところは抑えてあるので学ぶとよいと思います。私は言語人類学を学ぶ人のためにが一番好きですが、言語人類学の勢いは今はほとんどなくなってしまいました。面白い学問なのでもっと広まってほしいと願っています。
+  ずいぶん古い本で時代を追えてはいないですが、基本的なところは抑えてあるので学ぶとよいと思います。私は『<Link to="https://amzn.to/3iKyshU">言語人類学を学ぶ人のために</Link>』が一番好きですが、言語人類学の勢いは今はほとんどなくなってしまいました。面白い学問なのでもっと広まってほしいと願っています。
 </p>
 <hr />
 <h5 id="phonetics">音声学</h5>
