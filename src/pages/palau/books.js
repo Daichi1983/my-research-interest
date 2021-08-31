@@ -58,6 +58,28 @@ const BooksPage = () => {
 <p>日本が信託統治していた南洋群島における教育行政の歴史をまとめた資料です。お役所が作っただけあって、歴史書ではなく、あくまでも年代ごとに教員数などを書いた資料集です。当時の学校の写真が多く掲載されており、熱心に教育を行っていた様子がうかがえます。道理でパラオのお年寄りで日本語のできる人が多かったのもうなづけます。国会図書館のデジタルコレクションで読めるのがありがたいです。</p>
 <hr />
 
+
+
+<p>Daniel J. Peacock （2007）<Link to="https://amzn.to/3mTgbS1">"Lee Boo of Belau: A Prince of London (South Sea Books)"</Link>,Univ of Hawaii Pr,</p>
+
+	<div 
+         style={{
+          // By using the same grid area for both, they are stacked on top of each other
+          gridArea: "1/1",
+          position: "relative",
+          // This centers the other elements inside the hero component
+          placeItems: "center",
+          display: "grid",
+        }}>
+<Link to="https://www.amazon.co.jp/gp/product/0824832302/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=0824832302&linkCode=as2&tag=dai5986-22&linkId=b1934ab530b83e64bcd508eac1715dd4"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=0824832302&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=dai5986-22" /></Link><br />
+<Link to="https://www.amazon.co.jp/gp/product/0824832302/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=0824832302&linkCode=as2&tag=dai5986-22&linkId=935c08e8981348369f0633566e7e330c">Lee Boo of Belau: A Prince of London (South Sea Books)</Link>
+	</div>
+
+<p>Lee Boo（リー・ブー；1764-1784年12月27日）はパラオの上流階級の息子として生まれ、当時パラオにやってきた英国船でロンドンに行き、当時のヨーロッパの知識を得ようと努力します。しかし天然痘のため、弱冠20歳で客死します。Lee Booのロンドン滞在の様子を描いたのが本書です。</p>
+
+
+<hr />
+
 <h4>
 書籍リスト
 </h4>
