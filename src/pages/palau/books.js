@@ -80,6 +80,38 @@ const BooksPage = () => {
 
 <hr />
 
+
+<p>ドイツ人の自然科学者で民族学者でもあったAugustin
+Kraemerは1906～7年にパラオを訪問した時に詳細な記述を残しています。それが現在でも重要視されています。幸いなことに彼の書いた書籍はすべてオンラインで読むことができます。（Frakturで書かれたドイツ語ですが。）</p>
+
+<ul>
+  <li>
+     Palau. 5 Teilbände. Ergebnisse der Südsee-Expedition 1908–1910, Hrsg. G. Thilenius, II. Ethnographie: B Mikronesien, Band 3, Hamburg 1917–1929: Friederichsen, de Gruyter. Als Reprint erhältlich bei Fines Mundi, Saarbrücken
+      <li>
+	<Link to="http://digitalisate.sub.uni-hamburg.de/detail.html?tx_dlf%5Bid%5D=14131">Teilband 1: Abteilung I: Entdeckungsgeschichte. Abteilung II: Geographie. Friederichsen, Hamburg 1917</Link>
+      </li>
+      <li>
+	<Link to="http://digitalisate.sub.uni-hamburg.de/detail.html?tx_dlf%5Bid%5D=14008">Teilband 2: Abteilung III: Siedelungen, Bezirke, Dörfer, Verfassung. Abteilung IV: Demographie, Anthropologie, Sprache. Friederichsen, Hamburg 	1919</Link>
+      </li>
+      <li>
+	<Link to="http://digitalisate.sub.uni-hamburg.de/detail.html?tx_dlf%5Bid%5D=14057">Teilband 3: Abteilung V: Stoffliches. Abteilung VI: Geistige Kultur. Friederichsen, Hamburg 1926</Link>
+      </li>
+      <li>
+	<Link to="http://digitalisate.sub.uni-hamburg.de/detail.html?tx_dlf%5Bid%5D=13493">Teilband 4: Abteilung VII: Geschichten und Gesänge. Abteilung VIII: Botanischer, Zoologischer und Palauwörter-Index. Friederichsen, De Gruyter, Hamburg 1929</Link>
+      </li>
+      <li>
+	<Link to="http://digitalisate.sub.uni-hamburg.de/detail.html?tx_dlf%5Bid%5D=14128">Teilband 5: Abteilung IX: Zierkunst und Kulturvergleich. Abteilung X: Baiverzeichnis. Friederichsen, De Gruyter, Hamburg 1929</Link>
+      </li>
+      <li>
+	<Link to="http://www.belaunationalmuseum.net/exhibits/indoor/germany/kramer.htm">Englische Übersetzung 2014–2015:</Link>
+      </li>
+   </li>
+</ul>
+
+
+
+<hr />
+
 <h4>
 書籍リスト
 </h4>
